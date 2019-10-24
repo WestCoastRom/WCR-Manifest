@@ -6,7 +6,7 @@
            revision="refs/heads/wcroms-9.0" />
 
   <!-- WestCoastRom additions -->
-  <project>
+  </project>
   <project path="build/make" name="WestCoastRom/platform_build" remote="github" />
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
